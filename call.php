@@ -81,6 +81,9 @@ if(isset($_POST['sid'],$_POST['did'],$_POST['cat'])){
 	deleteStock($_POST['sid'],$_POST['did'],$_POST['cat']);
 }
 
+if(isset($_POST['nothing'])){
+	//This is some test here
+}
 
 
 
